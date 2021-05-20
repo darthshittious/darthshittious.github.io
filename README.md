@@ -1,5 +1,5 @@
-# varunj.tk
-- Site: https://varunj.tk
+# vj.is-most-likely.gay
+- Site: https://vj.is-most-likely.gay
 - Usage: Information about myself
 
 Adapted from https://github.com/AlexFlipNote/alexflipnote.github.io
