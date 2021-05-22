@@ -105,6 +105,12 @@ a:hover { color: #0fa0ce; }
     text-shadow: 0 0 5px #000;
 }
 
+/* Make title smaller on mobile */
+@media (max-width: 750px) {
+    .me .title { font-size: 10vmin; }
+    .me .quote { text-align: center; }
+}
+
 /* Responsive */
 @media (max-width: 800px) {
     .flex-grid .colour .name, .flex-grid .colour .hex { font-size: 16px; }
