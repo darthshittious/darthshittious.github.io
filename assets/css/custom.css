@@ -24,6 +24,20 @@ a:hover { color: #0fa0ce; }
 .info { background-image: url('../images/info.png'); }
 .git { background-image: url('../images/Git-Icon-1788C.png'); }
 .music { background-image: url("../images/music.png"); }
+.lock {
+    background-image: url("../images/lock.svg");
+    vertical-align: -.3em;
+    height: 1.25em;
+    width: 1.25em;
+    background-size: 1.25em 1.25em;
+}
+.email {
+    background-image: url("../images/email.svg");
+    vertical-align: -.3em;
+    height: 1.25em;
+    width: 1.25em;
+    background-size: 1.25em 1.25em;
+}
 .britain {
     background-image: url('https://twemoji.maxcdn.com/2/svg/1f1ec-1f1e7.svg');
     vertical-align: -.3em;
