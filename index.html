@@ -38,11 +38,14 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/prism.css" type="text/css">
     <link href="assets/css/modesta.css" type="text/css" rel="stylesheet">
     <link href="assets/css/custom.css" type="text/css" rel="stylesheet">
 
     <!-- Javascript -->
     <script src="https://kit.fontawesome.com/0f87d882a9.js" crossorigin="anonymous"></script>
+    <script src="/assets/js/prism.js"></script>
+    <script>hljs.highlightAll();</script>
     <script src="assets/js/main.js" type="text/javascript" charset="UTF-8"></script>
 </head>
 <body class="dark-theme github">
@@ -62,7 +65,10 @@
                         I know that the twelve notes in each octave and the variety of rhythm offer me opportunities that all of human genius will never exhaust.
                     </p>
                     <p class="quote monospace">
-                        PGP: <span class="black-bg reddit-text">BA1E BFEF C720 1CE8 32BF EA31 2663 A4EE 64C7 F50D</span>
+                        <span class="matrix">&nbsp;@darthshittious:matrix.org&nbsp;</span>
+                    </p>
+                    <p class="quote monospace">
+                        PGP: <span class="reddit-text black-bg">BA1E BFEF C720 1CE8 32BF EA31 2663 A4EE 64C7 F50D</span>
                     </p>
                 </div>
             </section>
@@ -125,10 +131,20 @@
             sensitive information.
         </p><br><p>
             • Email: <span class="monospace">varun@manipal.edu</span><br>
-            • PGP: &nbsp;&nbsp;<span class="reddit-text black-bg monospace">BE57 9E32 EEDF B054 E6FB  7BFA C053 2CBF 4EBD B386</span>
+            • PGP: &nbsp;&nbsp;<span class="reddit-text black-bg monospace">BE57 9E32 EEDF B054 E6FB 7BFA C053 2CBF 4EBD B386</span>
         </p><br><p>
             • Email: <span class="monospace">varun.j@learner.manipal.edu</span><br>
-            • PGP:   &nbsp;&nbsp;<span class="reddit-text black-bg monospace">8A92 08A8 E299 43CF 8853  2B1B F207 BF01 7644 7B7F</span>
+            • PGP:   &nbsp;&nbsp;<span class="reddit-text black-bg monospace">8A92 08A8 E299 43CF 8853 2B1B F207 BF01 7644 7B7F</span>
+        </p><br><p>
+            A JSON mapping my emails to their respective public key fingerprints is available at <a href="pgp/" target="_blank">https://varunj.me/pgp/</a>
+        </p><br><p>
+            The public keys also live in that path. The key for my personal email (all all its aliases) is at <samp>root.asc</samp>.
+            The other filenames are the same as the email IDs, except the <samp>.</samp>s are dot, and the <samp>@</samp>s are at.
+            You can import the keys from the command line by simply running:
+        </p><br><p>
+            <code class="language-bash">
+                curl https://varunj.me/gpg_import.sh | sh -s &lt;EMAIL_ID>
+            </code>
         </p></div>
     </div>
     <div class="box-container">
