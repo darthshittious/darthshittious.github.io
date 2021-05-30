@@ -16,12 +16,6 @@
     margin: 0;
 }
 
-.matrix {
-    border-radius: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: rgba(0, 0, 0, 0.7);
-}
 /* Link bullshit */
 a { color: #1eaedb; }
 a:hover { color: #0fa0ce; }
@@ -66,7 +60,9 @@ a:hover { color: #0fa0ce; }
     width: 1.25em;
     background-size: 1.25em 1.25em;
 }
-
+.matrix {
+    background-image: url('../images/matrix.svg');
+}
 .parallax-container .parallax { filter: blur(4px) brightness(50%); }
 .flex-grid { margin-top: .5em; }
 
