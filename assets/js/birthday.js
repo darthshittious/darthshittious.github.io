@@ -3,7 +3,7 @@ let birthday
 
 // This is used so I can return fake dates for testing purposes :)
 function getDate() {
-    return new Date(2021, 1, 26, 0, 0, 0)
+    return new Date()
 }
 
 function pluralise(i, name) {
