@@ -63,6 +63,9 @@ a:hover { color: #0fa0ce; }
 .matrix {
     background-image: url('../images/matrix.svg');
 }
+.heartbeat {
+    background-image: url('https://hb.varunj.me/favicon.ico');
+}
 .parallax-container .parallax { filter: blur(4px) brightness(50%); }
 .flex-grid { margin-top: .5em; }
 
